@@ -1,0 +1,157 @@
+/*Headings styling*/
+h1{
+color:#000000;
+text-decoration: underline;
+font-size: 150%;
+}
+h2{
+color:#000000;
+font-style: normal;
+text-align: left;
+font-size: 130%;
+}
+h3{
+color:#000000;
+font-style: normal;
+text-align: left;
+font-size: 120%;
+text-decoration: underline;
+}
+h4{
+color: #000000;
+font-size: 100%;
+font-style: normal;
+text-align: left;
+text-decoration: underline;
+}
+/*Styling the Paragraphs*/
+ol{
+color: #000000;
+}
+li{
+color: #000000;
+}
+p{
+color: #000000;
+text-align: justify;
+}
+/*Background Colour styling*/
+body
+{
+color:#FFFFFF
+}
+html
+{
+background-color: #FFFFFF;
+}
+/*Navigation Bar*/
+.navi{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color:#E5E4E2;
+		}
+li.navigation {
+    float: left;
+}
+li a.navigation {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*Links style*/
+a:hover {
+color:#000000
+}
+a:link {
+color:#0000FF
+}
+a:visited {
+color:#800080
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover.navigation {
+    background-color: white;
+}
+/*Page layout*/
+.masterhead{
+background:#D1D0CE;	
+}
+.screen{
+background:#FFFFFF;
+width:100%;	
+}
+.main{
+background:#FFFFFF;
+float: left;
+padding-right: 25px;
+}
+.pagefooter{
+background:#FFFFFF;
+clear:both;
+}
+.aside{
+background:#FFFFFF;
+}
+@media only screen  and (min-width : 768px) {
+main{ 
+float: left;
+width:75%;
+}
+} 
+/*styling Search box*/
+#searching
+{
+    background-color: white;
+    border-style: solid;
+    }
+	p.abstract{
+border-style:double;
+}
+p.news{
+font-style:italic;
+color:red;
+}
+/*figure*/
+figure.fig2{
+  padding: 4px;
+  float: right;
+  border: 1px solid #cccccc;
+  border-radius: 4px;	
+}
+figure.fig1{
+  padding: 4px;
+  float: right;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+figure figcaption {
+  padding: 2px 4px 2px 4px;
+  background-color: #636363;
+  color: #cccccc;
+  font-style: italic;
+  text-align:center;
+  border-radius: 0 0 3px 3px;
+}
+figure img {
+  border-radius: 3px 3px 0 0;
+}
+
+a{
+text-indent: 1cm;
+}
+hr
+{
+height:1px;	
+width:75%;
+margin-left: 0;
+}
+
+
+
+
+
+
